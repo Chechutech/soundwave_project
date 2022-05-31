@@ -1,17 +1,37 @@
 import React from 'react';
 import Landingpage from '../images/landing-page-girl.png';
+import './Main.css';
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 
+//d-flex justify-content-center align-items-center
 function Main() {
     return (
-      <div className="landing">
-        <img src={Landingpage} />
-        <h1>Feel the music</h1>
-        <p>Stream over 20 thousend song with one click</p>
-        <button>Join</button>
+      <Container className="Landing ">
+        <Row className="Row">
+          <Col className="girl">
+          <img className="heroimage" src={Landingpage} />
+            </Col>
+          <Col className="texto">
+          <h1>Feel the music</h1>
+          <p className= "sub-title">Stream over 20 thousend song with one click</p>
+          <Button className="text-center" href= "#join" variant="primary" size="sm">Join</Button>{' '}
+          </Col>
+        </Row>
+        
+       
+        
+      
+
+    
+        
+       
       
  
 
-     </div>
+        </Container>
       );
   }
   

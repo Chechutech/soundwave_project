@@ -2,3 +2,14 @@ Navbar {
     background-color: #202027 !important;
 
 }
+
+span.navbar-brand {
+    display:flex;
+    gap: 0.8em;
+}
+
+a.nav-link {
+    display: flex;
+    justify-content: flex-end;
+
+}

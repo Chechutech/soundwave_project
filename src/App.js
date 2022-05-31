@@ -4,11 +4,12 @@ import Navbartop from './Components/Navbartop';
 import SectionDiscover from './Components/SectionDiscover';
 import Sectionjoin from './Components/Sectionjoin';
 import Main from './Components/Main';
-
+import "@fontsource/poppins";
+import './Components/SectionDiscover';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{}} >
       <Navbartop />
       <Main />
       <SectionDiscover />

@@ -1,0 +1,26 @@
+.Landing {
+   height: 100vh; 
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+
+.sub-title {
+    font-weight: 100;
+
+}
+.heroimage {
+    width: 45vh;
+    margin-top: 9em;
+
+
+}
+
+.texto.col {
+    margin-top: 9em;
+
+
+}
+
