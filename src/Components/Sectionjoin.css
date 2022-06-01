@@ -9,8 +9,10 @@
       
 }
 
-.fun{
+span.fun{
     color: #BC3A80;
+    font-size: 1em;
+    font-weight: 800;
 }
 
 .formulario {
@@ -28,10 +30,22 @@ form  {
 
 .btn {
     width: 21.5em;
+    padding-top: 2em;
 }
 
 label.form-label{
     font-size: 0.8rem ;
     font-weight: 600;
 
+}
+
+h2.joinsubtittle {
+    width: 8em;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+input#disabledTextInput.form-control {
+    background-color:#202027 ;
+    color: white;
 }

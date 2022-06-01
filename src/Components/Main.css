@@ -3,24 +3,29 @@
    display: flex;
    justify-content: center;
    
-   
+}
+div.Row.row {
+    gap: 5em;
 }
 
-
-.sub-title {
-    font-weight: 100;
-
+p.sub-title {
+    font-weight: 500;
+    width: 20em;
+    
 }
+
 .heroimage {
-    width: 45vh;
-    margin-top: 9em;
-
-
+    width: 50vh;
+    margin-top: 12em;
 }
 
 .texto.col {
-    margin-top: 9em;
-
-
+    margin-top: 18em;
+    
 }
 
+a.text-center.btn.btn-primary.btn-sm {
+    width: 8em;
+    
+    font-size: 0.8em;
+}

@@ -8,6 +8,11 @@
     font-size: 1.2rem;
     
 }
+
+h1{
+    font-size: 20em;
+}
+
 #root {
 width: 100%;
 background-color: #2F303A;  

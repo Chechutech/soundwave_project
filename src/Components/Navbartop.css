@@ -3,13 +3,7 @@ Navbar {
 
 }
 
-span.navbar-brand {
+a.navbar-brand {
     display:flex;
-    gap: 0.8em;
-}
-
-a.nav-link {
-    display: flex;
-    justify-content: flex-end;
-
+    gap: 0.8em;   
 }

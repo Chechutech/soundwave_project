@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 //d-flex justify-content-center align-items-center
 function Main() {
     return (
-      <Container className="Landing ">
+      <Container className="Landing " id="main">
         <Row className="Row">
           <Col className="girl">
           <img className="heroimage" src={Landingpage} />
@@ -17,7 +17,7 @@ function Main() {
           <Col className="texto">
           <h1>Feel the music</h1>
           <p className= "sub-title">Stream over 20 thousend song with one click</p>
-          <Button className="text-center" href= "#join" variant="primary" size="sm">Join</Button>{' '}
+          <Button className="text-center" href= "#joinpage" variant="primary" size="sm">Join now</Button>{' '}
           </Col>
         </Row>
         
